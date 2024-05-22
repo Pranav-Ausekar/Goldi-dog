@@ -1,0 +1,184 @@
+body {
+    font-family: montserrat;
+}
+
+/* Title section */
+#title {
+    background-color: #ff4c68;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 4rem;
+    line-height: 1.3;
+    color: white;
+}
+h2 {
+    /* font-family: montserrat-bold; */
+    font-size: 2.5rem;
+    line-height: 1.5;
+    text-align: center;
+}
+h3 {
+    font-size: 2rem;
+ }
+
+ .container-fluid {
+    padding: 3% 15%;
+}
+
+/* navigation bar */
+
+.navbar {
+    padding-bottom: 4rem;
+}
+
+.nav-item {
+    padding: 0 15px;
+}
+
+.navbar-brand {
+    font-size: 2.3rem;
+    /* font-weight: bold; */
+    
+}
+
+/* download buttons */
+.download-buttons {
+    margin: 5% 3% 5% 0;
+}
+
+
+/* title image */
+
+.title-image {
+    width: 60%;
+    /* margin-left: 60px; */
+    /* transform: rotate(25deg); */
+}
+.center-image {
+    text-align: center;
+}
+
+
+ /* section features */
+ #features {
+    background-color: white;
+ }
+
+ .container-fluid-2 {
+    padding: 10% 18%;
+ }
+
+ .my-class-center {
+    text-align: center;
+ }
+
+ .my-class-margin {
+    padding: 0 30px;
+ }
+
+ p {
+    /* color: #8f8f8f; */
+    color: rgba(0, 0, 0, 0.812);
+ }
+
+ .design-icon {
+    color: #ef8172;
+    margin-bottom: 5%;
+ }
+ .design-icon:hover {
+    color:#ff4c68;
+ }
+
+
+/* testimonials section  */
+
+#testimonials {
+    background-color: #ef8172;
+    text-align: center;
+}
+
+.carousel-item {
+    padding: 7% 15%;
+}
+
+.round-image {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+em {
+    color: white;
+}
+
+
+/* press section */
+#press {
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.press-logo {
+    width: 15%;
+    margin: 20px;
+}
+
+
+/* pricing section  */
+#pricing {
+    padding: 7%;
+}
+
+.card {
+    text-align: center;
+    margin: 50px 20px 0 20px;
+}
+
+.p-lineheight {
+    line-height: 2rem;
+}
+
+.pricing-p-center {
+    text-align: center;
+}
+
+
+/* cta section */
+#cta {
+    text-align: center;
+    background-color: #ff4c68;
+    padding: 8% 13%;
+}
+
+.cta-h3 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 4.5rem;
+    color: white;
+    line-height: 1.3;
+}
+
+.btn-margin {
+    margin: 30px 10px;
+}
+
+
+/* footer section  */
+#footer {
+    padding: 7% 15%;
+    text-align: center;
+}
+
+.social-icons {
+    margin: 10px 20px;
+    padding-bottom: 40px;
+}
+
+
+/* Media query section  */
+@media (max-width: 1080px) {
+    #title {
+        text-align: center;
+    }
+}
